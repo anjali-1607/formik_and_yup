@@ -13,17 +13,56 @@ export default function Form() {
         <div className="parent">
           <div className="child1">
             <div className="child3">
-              <label>Email</label>
+              <label classname="label_div">Name</label>
               <br></br>
-              <input /> <br></br>
-              <label>Password</label>
+              <input
+                type="name"
+                autoComplete="off"
+                name="name"
+                id="name"
+                placeholder="Name"
+                className="field_"
+              />
               <br></br>
-              <input />
+              <label classname="label_div">Email</label>
               <br></br>
-              <label>Update Password</label>
+              <input
+                type="email"
+                autoComplete="off"
+                name="email"
+                id="email"
+                placeholder="Email"
+                className="field_"
+              />
               <br></br>
-              <input />
+              <label classname="label_div">Password</label>
               <br></br>
+              <input
+                type="password"
+                autoComplete="off"
+                name="password"
+                id="password"
+                placeholder="Password"
+                className="field_"
+              />
+              <br></br>
+              <label classname="label_div">Confirm Password</label>
+              <br></br>
+              <input
+                type="password"
+                autoComplete="off"
+                name="confirm_password"
+                id="confirm_password"
+                placeholder="Confirm Password"
+                className="field_"
+              />
+              <br></br>
+              <div>
+                <a href="#">Want to register using Gmail?</a>
+                <button type="submit" className="btn_submit">
+                  Registration
+                </button>
+              </div>
             </div>
           </div>
           <div className="child2">
